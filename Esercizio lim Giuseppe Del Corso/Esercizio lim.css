@@ -1,0 +1,86 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+.Container{
+      width: 1000px;
+      height: 700px;
+      border-radius: 15px 15px 15px 15px;
+      background: rgba(0, 0, 0, 0.6);
+      margin: auto;
+}
+.Container-logo{
+  width: 300px;
+  margin: auto;
+  display: flex;
+
+}
+.logo{
+  width: 200px;
+  height: 100px;
+  margin: auto;
+}
+.Testo{
+  width: 350px;
+  color: #32CD32;
+  margin:auto;
+}
+.prenotazioni{
+  background-color: #32CD32;
+  width: 800px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.Informazioni-Monopattini{
+  width: 800px;
+  height: 26px;
+  margin: auto;
+}
+
+.spunta{
+  color: white;
+  display: inline-block;
+}
+h3{
+  color: white;
+  display: inline-block;
+}
+.Posizione{
+  width: 800px;
+  height: 10px;
+  margin: auto;
+}
+.Locazione-Monopattino:before{
+  color: white;
+  content: "\21D2";
+  }
+.Locazione-Monopattino{
+  color: white
+}
+.Carica{
+  color: white
+}
+.Stato-batteria1{
+  background-color: orange;
+  border-radius: 10px;
+  width: 350px;
+  height: 30px;
+  margin: right;
+}
+.Stato-batteria2{
+  background-color: green;
+  border-radius: 10px;
+  width: 600px;
+  height: 30px;
+  margin: right;
+}
+.Stato-batteria3{
+  background-color: red;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  margin: right;
+}
